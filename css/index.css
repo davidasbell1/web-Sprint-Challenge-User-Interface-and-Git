@@ -69,8 +69,8 @@ p {
 
 .navbar{
     display: flex;
-    justify-content: space-evenly;
-    flex-shrink: 4;
+    justify-content: space-between;
+    
     margin: 50px;
     ;
 }
@@ -79,7 +79,7 @@ p {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 
@@ -226,23 +226,55 @@ p {
 }
 .mid{
     display: flex;
-    width: 800px;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .card {
+    width: 50%;
+    border-bottom:2px dashed;
+    padding:20px;
     
-     }
+  
+ }
+
+
+
+
+
+.LM {
+    background-color:white;
+    border: 2px solid;
+    border-radius: 12px;
+    padding:10px;
+    margin: 15px;
+}
  
  .low{
-     display: flex;
-     width: 800px;
-    margin: 0 auto;
- }
-footer {
-    width: 100%;
-    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    ;
 }
 
+.Leverage {
+    border-bottom:2px dashed;
+    padding:15px;
+}
+
+.letswork {
+    padding: 15px;
+}
+footer {
+    
+    background: black;
+    
+}
+    
+
+
 footer nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
